@@ -16,7 +16,7 @@ body {
     border-color:#FFFFFF;
     padding: 2px;
     font-size:100%;
-    background-image: url("images/flora.png");
+    background-image: url("Images/flora.png");
     /*background-color: #cccccc;*/
     background-color: #Ffd580;
     }
@@ -338,6 +338,16 @@ video {
     float: left;
     /*padding:15px*/
 }
+aside {
+  display:none;
+  width: 20%;
+  float:left;
+ /* padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;*/
+  }
 }
 /*PC*/
 @media only screen and (min-width:900px) {
@@ -393,7 +403,7 @@ section p {
     }
 aside {
     display:box;
-    width:100%;
+    width:20%;
     float:left;
     }
 aside h3 {
